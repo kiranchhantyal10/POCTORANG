@@ -146,6 +146,25 @@ h1{
     box-shadow: 0 0 20px rgba(0, 229, 255, 0.7);
 }
 
+#stats {
+    background: #0d0d0d;
+}
+
+#stats .card {
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+#stats .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0,229,255,0.6);
+}
+
+#stats h3 {
+    font-size: 2rem;
+    color: #00e5ff;
+}
+
 footer{
     background:#111;
     text-align:center;
