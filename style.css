@@ -100,11 +100,12 @@ h1{
 .section {
     max-width: 1400px;
     margin: auto;
+    padding: 80px 20px;
 }
 
 .section h2 {
     color: #00e5ff;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     text-shadow: 0 0 10px rgba(0,229,255,0.5);
 }
 
@@ -192,8 +193,25 @@ h1{
     color: #00e5ff;
 }
 
-#location {
-    background: #111;
+#testimonials {
+    background: #0d0d0d;
+}
+
+#testimonials .card {
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+#testimonials .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0,229,255,0.6);
+}
+
+#testimonials span {
+    display: block;
+    margin-top: 15px;
+    color: #00e5ff;
+    font-weight: bold;
 }
 
 .map-container {
